@@ -1,0 +1,111 @@
+.modal-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e0e0ed1;
+    z-index: 1;
+  
+}
+
+
+.main-box {
+    position: absolute;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(22%, 23vh);
+    z-index: 2;
+    width: 70%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+    
+    
+
+
+.sub-contain {
+    width: 90%;
+    margin: 20px auto 80px auto;
+   
+     
+}
+
+.cross-sign {
+    text-align: right;
+    font-size: 30px;
+}
+
+
+
+.sub-contain > h2 {
+    text-align: center;
+    font-weight: 545;
+    color: #019C89;
+    margin-bottom: 60px;
+}
+
+.form-contact h3 {
+    color: #019C89;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact-info-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 50px;
+    color: #474845;
+    font-weight: 550;
+}
+
+.contact-info-row.col {
+    display: flex;
+    gap: 25px;
+}
+.contact-info-row span {
+    font-weight: 400;
+}
+.contact-info-row input[type=text] {
+    width: 100%;
+    outline: none;
+    border: none;
+    width: 230px;
+    border-bottom: 1px solid #858585;
+    padding-bottom: 10px;
+}
+
+.radio-btn {
+    display: flex;
+    gap: 30px;
+}
+.radio-btn >div {
+    display: flex;
+    gap: 10px;
+}
+.radio-btn span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.submit-button {
+    border: none;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    width: 300px !important;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+
+.note {
+    margin-bottom: 60px;
+    color: #474845;
+}

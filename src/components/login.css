@@ -1,0 +1,126 @@
+.bg-image {
+    background-image:  url("http://13.234.30.40:3000/static/media/loginbg.8acfbb5830062b15de23.png");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.heading-work {
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 23px;
+
+}
+
+.working-img {
+    height: 400px;
+}
+
+.note-work {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.sign-in {
+    color: black;
+    text-decoration: none;
+ border: none;
+ border-bottom: 2px solid black;
+background: none;
+ padding-bottom: 10px;
+ text-align: center;
+ font-weight: 500;
+ padding-left: 25px;
+    padding-right: 25px
+
+
+
+
+}
+
+
+
+.box-login {
+    width: 400px;
+    height: 438px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #A3A3A3;
+    margin-top: 90px;
+    
+}
+
+.sign-row {
+
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+
+   
+}
+
+
+.mobile-btn {
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 14px 6px 14px;
+    
+}
+
+
+.email-btn {
+    background-color: white;
+    color: grey;
+    font-size: 12px;
+    border: 0.2px solid #DDE6E4;
+    border-radius: 3px;
+    padding: 6px 14px 6px 14px;
+    cursor: pointer;
+}
+
+.form-sect {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 84%;
+    height: 70%;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+.sign-in__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 84%;
+    height: 70%;
+    margin: auto;
+    font-size: 13px;
+}
+
+.login-options {
+    margin: 10px 0px 20px 0px;
+}
+
+.login-options label {
+    background-color: rgb(1, 156, 137);
+    color: rgb(255, 255, 255);
+    margin-right: 14px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 4px;
+    border: 1px solid #DDE6E4;
+    cursor: pointer;
+}
